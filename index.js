@@ -1,4 +1,4 @@
-const redirectingBtn = document.querySelector("button");
+const redirectingBtn = document.querySelector("#LogIn");
 redirectingBtn.addEventListener('click', ()=>{
   window.location.href = "/RazorPay_Login_file/RazorPayLoginPage.html";
 })
@@ -17,5 +17,10 @@ const redirectingSupportBtn = document.querySelector("#navSupport");
 //   window.location.href = "/Support_Page_File/RazorpaySupportPage.html";
 // })
 
+const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
 
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
 
