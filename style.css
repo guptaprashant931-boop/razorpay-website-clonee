@@ -102,11 +102,11 @@ img, svg {
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .companiesList {
     animation: none;
   }
-}
+} */
 
 @media (max-width: 640px) {
   footer h3 {
@@ -185,3 +185,4 @@ img, svg {
     width: auto;
   }
 }
+
