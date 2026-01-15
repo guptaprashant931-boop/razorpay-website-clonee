@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./*.html",                           // root html files
     "./**/*.html",                        // all subfolder html files
-    "./**/*.{js}",                        // optional : scan js files too
+    "./**/*.js",                        // optional : scan js files too
   ],
   theme: {
     extend: {
